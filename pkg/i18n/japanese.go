@@ -78,7 +78,6 @@ func japaneseTranslationSet() TranslationSet {
 		DeleteBranchMessage:      "ブランチ '{{.selectedBranchName}}' を削除します。よろしいですか?",
 		ForceDeleteBranchMessage: "'{{.selectedBranchName}}' はマージされていません。本当に削除しますか?",
 		// LcRebaseBranch:                      "rebase checked-out branch onto this branch",
-		CantRebaseOntoSelf:        "ブランチを自分自身にリベースすることはできません。",
 		CantMergeBranchIntoItself: "ブランチを自分自身にマージすることはできません。",
 		// LcForceCheckout:                     "force checkout",
 		// LcCheckoutByName:                    "checkout by name",

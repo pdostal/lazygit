@@ -87,7 +87,6 @@ func chineseTranslationSet() TranslationSet {
 		DeleteBranchMessage:                 "您确定要删除分支 {{.selectedBranchName}} 吗？",
 		ForceDeleteBranchMessage:            "{{.selectedBranchName}} 还没有被完全合并。您确定要删除它吗？",
 		LcRebaseBranch:                      "将已检出的分支变基到该分支",
-		CantRebaseOntoSelf:                  "您不能将分支变基到其自身",
 		CantMergeBranchIntoItself:           "您不能将分支合并到其自身",
 		LcForceCheckout:                     "强制检出",
 		LcCheckoutByName:                    "按名称检出",

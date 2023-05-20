@@ -48,7 +48,6 @@ func polishTranslationSet() TranslationSet {
 		DeleteBranchMessage:                 "Jesteś pewien, że chcesz usunąć gałąź '{{.selectedBranchName}}' ?",
 		ForceDeleteBranchMessage:            "Na pewno wymusić usunięcie gałęzi '{{.selectedBranchName}}'?",
 		LcRebaseBranch:                      "zmiana bazy gałęzi",
-		CantRebaseOntoSelf:                  "Nie możesz zmienić bazy gałęzi na nią samą",
 		CantMergeBranchIntoItself:           "Nie możesz scalić gałęzi do samej siebie",
 		LcForceCheckout:                     "wymuś przełączenie",
 		LcCheckoutByName:                    "przełącz używając nazwy",

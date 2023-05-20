@@ -77,7 +77,6 @@ func koreanTranslationSet() TranslationSet {
 		DeleteBranchMessage:                 "정말로 브랜치 '{{.selectedBranchName}}' 를 삭제하시겠습니까?",
 		ForceDeleteBranchMessage:            "'{{.selectedBranchName}}'는 완전히 병합되지 않았습니다. 정말 삭제하시겠습니까?",
 		LcRebaseBranch:                      "체크아웃된 브랜치를 이 브랜치에 리베이스",
-		CantRebaseOntoSelf:                  "브랜치를 자기 자신에게 리베이스할 수는 없습니다.",
 		CantMergeBranchIntoItself:           "브랜치를 자기 자신에게 병합할 수는 없습니다.",
 		LcForceCheckout:                     "강제 체크아웃",
 		LcCheckoutByName:                    "이름으로 체크아웃",

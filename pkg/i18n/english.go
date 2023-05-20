@@ -73,7 +73,6 @@ type TranslationSet struct {
 	DeleteBranchMessage                 string
 	ForceDeleteBranchMessage            string
 	LcRebaseBranch                      string
-	CantRebaseOntoSelf                  string
 	CantMergeBranchIntoItself           string
 	LcForceCheckout                     string
 	LcCheckoutByName                    string
@@ -743,7 +742,6 @@ func EnglishTranslationSet() TranslationSet {
 		DeleteBranchMessage:                 "Are you sure you want to delete the branch '{{.selectedBranchName}}'?",
 		ForceDeleteBranchMessage:            "'{{.selectedBranchName}}' is not fully merged. Are you sure you want to delete it?",
 		LcRebaseBranch:                      "rebase checked-out branch onto this branch",
-		CantRebaseOntoSelf:                  "You cannot rebase a branch onto itself",
 		CantMergeBranchIntoItself:           "You cannot merge a branch into itself",
 		LcForceCheckout:                     "force checkout",
 		LcCheckoutByName:                    "checkout by name",

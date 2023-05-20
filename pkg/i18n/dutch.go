@@ -53,7 +53,6 @@ func dutchTranslationSet() TranslationSet {
 		DeleteBranchMessage:                 "Weet je zeker dat je branch '{{.selectedBranchName}}' wilt verwijderen?",
 		ForceDeleteBranchMessage:            "Weet je zeker dat je branch '{{.selectedBranchName}}' geforceerd wil verwijderen?",
 		LcRebaseBranch:                      "rebase branch",
-		CantRebaseOntoSelf:                  "Je kan niet een branch rebasen op zichzelf",
 		CantMergeBranchIntoItself:           "Je kan niet een branch in zichzelf mergen",
 		LcForceCheckout:                     "forceer checkout",
 		LcCheckoutByName:                    "uitchecken bij naam",
