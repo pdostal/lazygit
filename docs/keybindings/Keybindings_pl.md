@@ -36,8 +36,8 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>,</kbd>: Previous page
   <kbd>.</kbd>: Next page
   <kbd>&lt;</kbd>: Scroll to top
-  <kbd>/</kbd>: Start search
   <kbd>&gt;</kbd>: Scroll to bottom
+  <kbd>/</kbd>: Search the current view
   <kbd>H</kbd>: Scroll left
   <kbd>L</kbd>: Scroll right
   <kbd>]</kbd>: Next tab
@@ -56,6 +56,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy commit SHA to clipboard
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
+  <kbd>/</kbd>: Search the current view
   <kbd>b</kbd>: View bisect options
   <kbd>s</kbd>: Ściśnij
   <kbd>f</kbd>: Napraw commit
@@ -95,6 +96,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy branch name to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Show git-flow options
   <kbd>&lt;space&gt;</kbd>: Przełącz
   <kbd>n</kbd>: Nowa gałąź
@@ -117,6 +119,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Main panel (patch building)
 
 <pre>
+  <kbd>/</kbd>: Search the current view
   <kbd>&lt;left&gt;</kbd>: Poprzedni kawałek
   <kbd>&lt;right&gt;</kbd>: Następny kawałek
   <kbd>v</kbd>: Toggle drag select
@@ -132,6 +135,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Menu
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Wykonaj
   <kbd>&lt;esc&gt;</kbd>: Zamknij
 </pre>
@@ -140,6 +144,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy the file name to the clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: Pokaż opcje porzucania zmian
   <kbd>&lt;space&gt;</kbd>: Przełącz stan poczekalni
   <kbd>&lt;c-b&gt;</kbd>: Filter files (staged/unstaged)
@@ -166,6 +171,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy the committed file name to the clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Plik wybierania
   <kbd>d</kbd>: Porzuć zmiany commita dla tego pliku
   <kbd>o</kbd>: Otwórz plik
@@ -179,6 +185,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Poczekalnia
 
 <pre>
+  <kbd>/</kbd>: Search the current view
   <kbd>&lt;left&gt;</kbd>: Poprzedni kawałek
   <kbd>&lt;right&gt;</kbd>: Następny kawałek
   <kbd>v</kbd>: Toggle drag select
@@ -201,6 +208,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy commit SHA to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -216,6 +224,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy branch name to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Przełącz
   <kbd>n</kbd>: Nowa gałąź
   <kbd>M</kbd>: Scal do obecnej gałęzi
@@ -230,6 +239,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Remotes
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: Fetch remote
   <kbd>n</kbd>: Add new remote
   <kbd>d</kbd>: Remove remote
@@ -255,6 +265,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Schowek
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Zastosuj
   <kbd>g</kbd>: Wyciągnij
   <kbd>d</kbd>: Porzuć
@@ -277,6 +288,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy commit SHA to clipboard
+  <kbd>/</kbd>: Search the current view
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -292,6 +304,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy submodule name to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Enter submodule
   <kbd>d</kbd>: Remove submodule
   <kbd>u</kbd>: Update submodule
@@ -304,6 +317,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Tags
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Przełącz
   <kbd>d</kbd>: Delete tag
   <kbd>P</kbd>: Push tag

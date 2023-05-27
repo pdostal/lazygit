@@ -36,8 +36,8 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>,</kbd>: 前のページ
   <kbd>.</kbd>: 次のページ
   <kbd>&lt;</kbd>: 最上部までスクロール
-  <kbd>/</kbd>: 検索を開始
   <kbd>&gt;</kbd>: 最下部までスクロール
+  <kbd>/</kbd>: 検索を開始
   <kbd>H</kbd>: 左スクロール
   <kbd>L</kbd>: 右スクロール
   <kbd>]</kbd>: 次のタブ
@@ -47,6 +47,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Stash
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 適用
   <kbd>g</kbd>: Pop
   <kbd>d</kbd>: Drop
@@ -59,6 +60,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットのSHAをクリップボードにコピー
+  <kbd>/</kbd>: 検索を開始
   <kbd>&lt;space&gt;</kbd>: コミットをチェックアウト
   <kbd>y</kbd>: コミットの情報をコピー
   <kbd>o</kbd>: ブラウザでコミットを開く
@@ -75,6 +77,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットのSHAをクリップボードにコピー
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
+  <kbd>/</kbd>: 検索を開始
   <kbd>b</kbd>: View bisect options
   <kbd>s</kbd>: Squash down
   <kbd>f</kbd>: Fixup commit
@@ -107,6 +110,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットされたファイル名をクリップボードにコピー
+  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Checkout file
   <kbd>d</kbd>: Discard this commit's changes to this file
   <kbd>o</kbd>: ファイルを開く
@@ -128,6 +132,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: サブモジュール名をクリップボードにコピー
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: サブモジュールを開く
   <kbd>d</kbd>: サブモジュールを削除
   <kbd>u</kbd>: サブモジュールを更新
@@ -150,6 +155,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## タグ
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: チェックアウト
   <kbd>d</kbd>: タグを削除
   <kbd>P</kbd>: タグをpush
@@ -162,6 +168,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: ファイル名をクリップボードにコピー
+  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: View 'discard changes' options
   <kbd>&lt;space&gt;</kbd>: ステージ/アンステージ
   <kbd>&lt;c-b&gt;</kbd>: ファイルをフィルタ (ステージ/アンステージ)
@@ -188,6 +195,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: ブランチ名をクリップボードにコピー
+  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Show git-flow options
   <kbd>&lt;space&gt;</kbd>: チェックアウト
   <kbd>n</kbd>: 新しいブランチを作成
@@ -233,6 +241,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## メインパネル (Patch Building)
 
 <pre>
+  <kbd>/</kbd>: 検索を開始
   <kbd>&lt;left&gt;</kbd>: 前のhunkを選択
   <kbd>&lt;right&gt;</kbd>: 次のhunkを選択
   <kbd>v</kbd>: 範囲選択を切り替え
@@ -248,6 +257,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## メインパネル (Staging)
 
 <pre>
+  <kbd>/</kbd>: 検索を開始
   <kbd>&lt;left&gt;</kbd>: 前のhunkを選択
   <kbd>&lt;right&gt;</kbd>: 次のhunkを選択
   <kbd>v</kbd>: 範囲選択を切り替え
@@ -269,6 +279,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## メニュー
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: 実行
   <kbd>&lt;esc&gt;</kbd>: 閉じる
 </pre>
@@ -276,6 +287,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## リモート
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: リモートをfetch
   <kbd>n</kbd>: リモートを新規追加
   <kbd>d</kbd>: リモートを削除
@@ -286,6 +298,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: ブランチ名をクリップボードにコピー
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: チェックアウト
   <kbd>n</kbd>: 新しいブランチを作成
   <kbd>M</kbd>: 現在のブランチにマージ
@@ -301,6 +314,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットのSHAをクリップボードにコピー
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: コミットをチェックアウト
   <kbd>y</kbd>: コミットの情報をコピー
   <kbd>o</kbd>: ブラウザでコミットを開く

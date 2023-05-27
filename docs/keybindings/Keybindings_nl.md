@@ -36,8 +36,8 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>,</kbd>: Vorige pagina
   <kbd>.</kbd>: Volgende pagina
   <kbd>&lt;</kbd>: Scroll naar boven
-  <kbd>/</kbd>: Start met zoeken
   <kbd>&gt;</kbd>: Scroll naar beneden
+  <kbd>/</kbd>: Start met zoeken
   <kbd>H</kbd>: Scroll left
   <kbd>L</kbd>: Scroll right
   <kbd>]</kbd>: Volgende tabblad
@@ -48,6 +48,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer de bestandsnaam naar het klembord
+  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: Bekijk 'veranderingen ongedaan maken' opties
   <kbd>&lt;space&gt;</kbd>: Toggle staged
   <kbd>&lt;c-b&gt;</kbd>: Filter files (staged/unstaged)
@@ -81,6 +82,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer branch name naar klembord
+  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Laat git-flow opties zien
   <kbd>&lt;space&gt;</kbd>: Uitchecken
   <kbd>n</kbd>: Nieuwe branch
@@ -111,6 +113,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer de vastgelegde bestandsnaam naar het klembord
+  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Bestand uitchecken
   <kbd>d</kbd>: Uitsluit deze commit zijn veranderingen aan dit bestand
   <kbd>o</kbd>: Open bestand
@@ -126,6 +129,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer commit SHA naar klembord
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (gekopieerde) commits selectie
+  <kbd>/</kbd>: Start met zoeken
   <kbd>b</kbd>: View bisect options
   <kbd>s</kbd>: Squash beneden
   <kbd>f</kbd>: Fixup commit
@@ -157,6 +161,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Menu
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Uitvoeren
   <kbd>&lt;esc&gt;</kbd>: Sluiten
 </pre>
@@ -187,6 +192,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Patch bouwen
 
 <pre>
+  <kbd>/</kbd>: Start met zoeken
   <kbd>&lt;left&gt;</kbd>: Selecteer de vorige hunk
   <kbd>&lt;right&gt;</kbd>: Selecteer de volgende hunk
   <kbd>v</kbd>: Toggle drag selecteer
@@ -203,6 +209,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer commit SHA naar klembord
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -218,6 +225,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer branch name naar klembord
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Uitchecken
   <kbd>n</kbd>: Nieuwe branch
   <kbd>M</kbd>: Merge in met huidige checked out branch
@@ -232,6 +240,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Remotes
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: Fetch remote
   <kbd>n</kbd>: Voeg een nieuwe remote toe
   <kbd>d</kbd>: Verwijder remote
@@ -241,6 +250,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Staging
 
 <pre>
+  <kbd>/</kbd>: Start met zoeken
   <kbd>&lt;left&gt;</kbd>: Selecteer de vorige hunk
   <kbd>&lt;right&gt;</kbd>: Selecteer de volgende hunk
   <kbd>v</kbd>: Toggle drag selecteer
@@ -262,6 +272,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Stash
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Toepassen
   <kbd>g</kbd>: Pop
   <kbd>d</kbd>: Laten vallen
@@ -284,6 +295,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer commit SHA naar klembord
+  <kbd>/</kbd>: Start met zoeken
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -299,6 +311,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer submodule naam naar klembord
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Enter submodule
   <kbd>d</kbd>: Remove submodule
   <kbd>u</kbd>: Update submodule
@@ -311,6 +324,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Tags
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Uitchecken
   <kbd>d</kbd>: Verwijder tag
   <kbd>P</kbd>: Push tag

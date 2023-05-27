@@ -39,7 +39,6 @@ func (self *FilterController) GetKeybindings(opts types.KeybindingsOpts) []*type
 			Key:         opts.GetKey(opts.Config.Universal.StartSearch),
 			Handler:     self.OpenFilterPrompt,
 			Description: self.c.Tr.StartFilter,
-			Tag:         "navigation",
 		},
 	}
 }

@@ -36,8 +36,8 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>,</kbd>: Previous page
   <kbd>.</kbd>: Next page
   <kbd>&lt;</kbd>: Scroll to top
-  <kbd>/</kbd>: Start search
   <kbd>&gt;</kbd>: Scroll to bottom
+  <kbd>/</kbd>: Search the current view
   <kbd>H</kbd>: Scroll left
   <kbd>L</kbd>: Scroll right
   <kbd>]</kbd>: Next tab
@@ -48,6 +48,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy the committed file name to the clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Checkout file
   <kbd>d</kbd>: Discard this commit's changes to this file
   <kbd>o</kbd>: Open file
@@ -70,6 +71,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy commit SHA to clipboard
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
+  <kbd>/</kbd>: Search the current view
   <kbd>b</kbd>: View bisect options
   <kbd>s</kbd>: Squash down
   <kbd>f</kbd>: Fixup commit
@@ -109,6 +111,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy the file name to the clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: View 'discard changes' options
   <kbd>&lt;space&gt;</kbd>: Toggle staged
   <kbd>&lt;c-b&gt;</kbd>: Filter files (staged/unstaged)
@@ -135,6 +138,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy branch name to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Show git-flow options
   <kbd>&lt;space&gt;</kbd>: Checkout
   <kbd>n</kbd>: New branch
@@ -180,6 +184,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Main panel (patch building)
 
 <pre>
+  <kbd>/</kbd>: Search the current view
   <kbd>&lt;left&gt;</kbd>: Select previous hunk
   <kbd>&lt;right&gt;</kbd>: Select next hunk
   <kbd>v</kbd>: Toggle drag select
@@ -195,6 +200,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Main panel (staging)
 
 <pre>
+  <kbd>/</kbd>: Search the current view
   <kbd>&lt;left&gt;</kbd>: Select previous hunk
   <kbd>&lt;right&gt;</kbd>: Select next hunk
   <kbd>v</kbd>: Toggle drag select
@@ -216,6 +222,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Menu
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Execute
   <kbd>&lt;esc&gt;</kbd>: Close
 </pre>
@@ -224,6 +231,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy commit SHA to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -239,6 +247,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy branch name to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Checkout
   <kbd>n</kbd>: New branch
   <kbd>M</kbd>: Merge into currently checked out branch
@@ -253,6 +262,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Remotes
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: Fetch remote
   <kbd>n</kbd>: Add new remote
   <kbd>d</kbd>: Remove remote
@@ -262,6 +272,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Stash
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Apply
   <kbd>g</kbd>: Pop
   <kbd>d</kbd>: Drop
@@ -284,6 +295,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy commit SHA to clipboard
+  <kbd>/</kbd>: Search the current view
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -299,6 +311,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Copy submodule name to clipboard
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Enter submodule
   <kbd>d</kbd>: Remove submodule
   <kbd>u</kbd>: Update submodule
@@ -311,6 +324,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Tags
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Checkout
   <kbd>d</kbd>: Delete tag
   <kbd>P</kbd>: Push tag

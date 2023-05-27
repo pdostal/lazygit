@@ -36,8 +36,8 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>,</kbd>: 上一页
   <kbd>.</kbd>: 下一页
   <kbd>&lt;</kbd>: 滚动到顶部
-  <kbd>/</kbd>: 开始搜索
   <kbd>&gt;</kbd>: 滚动到底部
+  <kbd>/</kbd>: 开始搜索
   <kbd>H</kbd>: 向左滚动
   <kbd>L</kbd>: 向右滚动
   <kbd>]</kbd>: 下一个标签
@@ -48,6 +48,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将提交的 SHA 复制到剪贴板
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 检出提交
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: 在浏览器中打开提交
@@ -63,6 +64,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将分支名称复制到剪贴板
+  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: 显示 git-flow 选项
   <kbd>&lt;space&gt;</kbd>: 检出
   <kbd>n</kbd>: 新分支
@@ -86,6 +88,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将提交的 SHA 复制到剪贴板
+  <kbd>/</kbd>: 开始搜索
   <kbd>&lt;space&gt;</kbd>: 检出提交
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: 在浏览器中打开提交
@@ -101,6 +104,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将子模块名称复制到剪贴板
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: 输入子模块
   <kbd>d</kbd>: 删除子模块
   <kbd>u</kbd>: 更新子模块
@@ -115,6 +119,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将提交的 SHA 复制到剪贴板
   <kbd>&lt;c-r&gt;</kbd>: 重置已拣选（复制）的提交
+  <kbd>/</kbd>: 开始搜索
   <kbd>b</kbd>: 查看二分查找选项
   <kbd>s</kbd>: 向下压缩
   <kbd>f</kbd>: 修正提交（fixup）
@@ -147,6 +152,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将提交的文件名复制到剪贴板
+  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: 检出文件
   <kbd>d</kbd>: 放弃对此文件的提交更改
   <kbd>o</kbd>: 打开文件
@@ -168,6 +174,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将文件名复制到剪贴板
+  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: 查看'放弃更改'选项
   <kbd>&lt;space&gt;</kbd>: 切换暂存状态
   <kbd>&lt;c-b&gt;</kbd>: Filter files (staged/unstaged)
@@ -193,6 +200,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 构建补丁中
 
 <pre>
+  <kbd>/</kbd>: 开始搜索
   <kbd>&lt;left&gt;</kbd>: 选择上一个区块
   <kbd>&lt;right&gt;</kbd>: 选择下一个区块
   <kbd>v</kbd>: 切换拖动选择
@@ -208,6 +216,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 标签页面
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 检出
   <kbd>d</kbd>: 删除标签
   <kbd>P</kbd>: 推送标签
@@ -235,6 +244,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 正在暂存
 
 <pre>
+  <kbd>/</kbd>: 开始搜索
   <kbd>&lt;left&gt;</kbd>: 选择上一个区块
   <kbd>&lt;right&gt;</kbd>: 选择下一个区块
   <kbd>v</kbd>: 切换拖动选择
@@ -280,6 +290,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 菜单
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: 执行
   <kbd>&lt;esc&gt;</kbd>: 关闭
 </pre>
@@ -287,6 +298,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 贮藏
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 应用
   <kbd>g</kbd>: 应用并删除
   <kbd>d</kbd>: 删除
@@ -299,6 +311,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 将分支名称复制到剪贴板
+  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 检出
   <kbd>n</kbd>: 新分支
   <kbd>M</kbd>: 合并到当前检出的分支
@@ -313,6 +326,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 远程页面
 
 <pre>
+  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: 抓取远程仓库
   <kbd>n</kbd>: 添加新的远程仓库
   <kbd>d</kbd>: 删除远程
