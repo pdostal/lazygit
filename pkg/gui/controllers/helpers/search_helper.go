@@ -165,7 +165,7 @@ func (self *SearchHelper) Cancel() {
 
 	switch context := state.Context.(type) {
 	case types.IFilterableContext:
-		context.SetFilter("")
+		context.ClearFilter()
 		_ = self.c.PostRefreshUpdate(context)
 	case types.ISearchableContext:
 		context.GetView().ClearSearch()
