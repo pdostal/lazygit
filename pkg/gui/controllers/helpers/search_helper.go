@@ -9,6 +9,12 @@ import (
 	"github.com/jesseduffield/lazygit/pkg/theme"
 )
 
+// NOTE: this helper supports both filtering and searching. Filtering is when
+// the contents of the list are filtered, whereas searching does not actually
+// change the contents of the list but instead just highlights the search.
+// The general term we use to capture both searching and filtering is...
+// 'searching', which is unfortunate but I can't think of a better name.
+
 type SearchHelper struct {
 	c *HelperCommon
 }
