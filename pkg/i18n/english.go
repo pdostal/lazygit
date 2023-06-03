@@ -535,6 +535,7 @@ type TranslationSet struct {
 	SearchPrefix                        string
 	FilterPrefix                        string
 	ExitSearchMode                      string
+	ExitTextFilterMode                  string
 	Actions                             Actions
 	Bisect                              Bisect
 }
@@ -1218,6 +1219,7 @@ func EnglishTranslationSet() TranslationSet {
 		CopyPatchToClipboard:                "Copy patch to clipboard",
 		NoMatchesFor:                        "No matches for '%s' %s",
 		ExitSearchMode:                      "%s: Exit search mode",
+		ExitTextFilterMode:                  "%s: Exit filter mode",
 		MatchesFor:                          "matches for '%s' (%d of %d) %s", // lowercase because it's after other text
 		SearchKeybindings:                   "%s: Next match, %s: Previous match, %s: Exit search mode",
 		SearchPrefix:                        "Search: ",
