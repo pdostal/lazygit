@@ -109,3 +109,32 @@ func (self *CommitFileTreeViewModel) ToggleShowTree() {
 		self.SetSelectedLineIdx(index)
 	}
 }
+
+func (self *CommitFileTreeViewModel) SetTree() {
+	selectedNode := self.GetSelected()
+
+	prevSelectedLineIdx := self.GetSelectedLineIdx()
+
+	self.ICommitFileTree.SetTree()
+
+	// we need to re-select the original node in case it's been moved
+	if selectedNode != nil {
+		newNodes := self.GetAllItems()
+		newIdx := self.findNewSelectedIdx(selectedNode.GetPath(), newNodes)
+		if newIdx != -1 && newIdx != prevSelectedLineIdx {
+			self.SetSelectedLineIdx(newIdx)
+		}
+	}
+
+	self.RefreshSelectedIdx()
+}
+
+func (self *CommitFileTreeViewModel) findNewSelectedIdx(selectedPath string, currNodes []*CommitFileNode) int {
+	for idx, node := range currNodes {
+		if node.GetPath() == selectedPath {
+			return idx
+		}
+	}
+
+	return -1
+}
