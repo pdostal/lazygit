@@ -163,6 +163,16 @@ func (gui *Gui) resetHelpersAndControllers() {
 
 	sideWindowControllerFactory := controllers.NewSideWindowControllerFactory(common)
 
+	filterControllerFactory := controllers.NewFilterControllerFactory(common)
+	for _, context := range gui.c.Context().AllFilterable() {
+		controllers.AttachControllers(context, filterControllerFactory.Create(context))
+	}
+
+	searchControllerFactory := controllers.NewSearchControllerFactory(common)
+	for _, context := range gui.c.Context().AllSearchable() {
+		controllers.AttachControllers(context, searchControllerFactory.Create(context))
+	}
+
 	// allow for navigating between side window contexts
 	for _, context := range []types.Context{
 		gui.State.Contexts.Status,
@@ -339,16 +349,6 @@ func (gui *Gui) resetHelpersAndControllers() {
 	controllers.AttachControllers(gui.State.Contexts.Snake,
 		snakeController,
 	)
-
-	filterControllerFactory := controllers.NewFilterControllerFactory(common)
-	for _, context := range gui.c.Context().AllFilterable() {
-		controllers.AttachControllers(context, filterControllerFactory.Create(context))
-	}
-
-	searchControllerFactory := controllers.NewSearchControllerFactory(common)
-	for _, context := range gui.c.Context().AllSearchable() {
-		controllers.AttachControllers(context, searchControllerFactory.Create(context))
-	}
 
 	// this must come last so that we've got our click handlers defined against the context
 	listControllerFactory := controllers.NewListControllerFactory(common)
