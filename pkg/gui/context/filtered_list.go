@@ -68,3 +68,11 @@ func (self *FilteredList[T]) applyFilter() {
 func (self *FilteredList[T]) match(haystack string, needle string) bool {
 	return utils.CaseInsensitiveContains(haystack, needle)
 }
+
+func (self *FilteredList[T]) UnfilteredIndex(index int) int {
+	if self.filteredIndices == nil {
+		return index
+	}
+	// TODO: mutex
+	return self.filteredIndices[index]
+}
