@@ -35,15 +35,16 @@ func (self *SearchHelper) OpenFilterPrompt(context types.IFilterableContext) err
 	return nil
 }
 
-func (self *SearchHelper) OpenSearchPrompt(context types.Context) error {
+func (self *SearchHelper) OpenSearchPrompt(context types.ISearchableContext) error {
 	state := self.searchState()
 
 	state.Context = context
+	searchString := context.GetSearchString()
 
 	self.searchPrefixView().SetContent(self.c.Tr.SearchPrefix)
 	promptView := self.promptView()
-	// TODO: should we show the currently searched thing here? Perhaps we can store that on the context
 	promptView.ClearTextArea()
+	promptView.TextArea.TypeString(searchString)
 	promptView.RenderTextArea()
 
 	if err := self.c.PushContext(self.c.Contexts().Search); err != nil {
@@ -72,7 +73,8 @@ func (self *SearchHelper) DisplaySearchPrompt(context types.ISearchableContext) 
 	state.Context = context
 	searchString := context.GetSearchString()
 
-	self.searchPrefixView().SetContent(self.c.Tr.SearchPrefix)
+	_ = context.GetView().SelectCurrentSearchResult()
+
 	promptView := self.promptView()
 	promptView.ClearTextArea()
 	promptView.TextArea.TypeString(searchString)
@@ -173,7 +175,7 @@ func (self *SearchHelper) Cancel() {
 		// do nothing
 	}
 
-	state.Context = nil
+	self.HidePrompt()
 }
 
 func (self *SearchHelper) OnPromptContentChanged(searchString string) {
@@ -222,4 +224,9 @@ func (self *SearchHelper) CancelSearchIfSearching(c types.Context) {
 		}
 		return
 	}
+}
+
+func (self *SearchHelper) HidePrompt() {
+	state := self.searchState()
+	state.Context = nil
 }
