@@ -47,20 +47,19 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Stash
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 適用
   <kbd>g</kbd>: Pop
   <kbd>d</kbd>: Drop
   <kbd>n</kbd>: 新しいブランチを作成
   <kbd>r</kbd>: Stashを変更
   <kbd>&lt;enter&gt;</kbd>: View selected item's files
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Sub-commits
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットのSHAをクリップボードにコピー
-  <kbd>/</kbd>: 検索を開始
   <kbd>&lt;space&gt;</kbd>: コミットをチェックアウト
   <kbd>y</kbd>: コミットの情報をコピー
   <kbd>o</kbd>: ブラウザでコミットを開く
@@ -70,6 +69,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>C</kbd>: コミットを範囲コピー (cherry-pick)
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
   <kbd>&lt;enter&gt;</kbd>: View selected item's files
+  <kbd>/</kbd>: 検索を開始
 </pre>
 
 ## コミット
@@ -77,7 +77,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットのSHAをクリップボードにコピー
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
-  <kbd>/</kbd>: 検索を開始
   <kbd>b</kbd>: View bisect options
   <kbd>s</kbd>: Squash down
   <kbd>f</kbd>: Fixup commit
@@ -104,13 +103,13 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>c</kbd>: コミットをコピー (cherry-pick)
   <kbd>C</kbd>: コミットを範囲コピー (cherry-pick)
   <kbd>&lt;enter&gt;</kbd>: View selected item's files
+  <kbd>/</kbd>: 検索を開始
 </pre>
 
 ## コミットファイル
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットされたファイル名をクリップボードにコピー
-  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Checkout file
   <kbd>d</kbd>: Discard this commit's changes to this file
   <kbd>o</kbd>: ファイルを開く
@@ -119,6 +118,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>a</kbd>: Toggle all files included in patch
   <kbd>&lt;enter&gt;</kbd>: Enter file to add selected lines to the patch (or toggle directory collapsed)
   <kbd>`</kbd>: ファイルツリーの表示を切り替え
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## コミットメッセージ
@@ -132,7 +132,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: サブモジュール名をクリップボードにコピー
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: サブモジュールを開く
   <kbd>d</kbd>: サブモジュールを削除
   <kbd>u</kbd>: サブモジュールを更新
@@ -140,6 +139,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>e</kbd>: サブモジュールのURLを更新
   <kbd>i</kbd>: サブモジュールを初期化
   <kbd>b</kbd>: View bulk submodule options
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## ステータス
@@ -155,20 +155,19 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## タグ
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: チェックアウト
   <kbd>d</kbd>: タグを削除
   <kbd>P</kbd>: タグをpush
   <kbd>n</kbd>: タグを作成
   <kbd>g</kbd>: View reset options
   <kbd>&lt;enter&gt;</kbd>: コミットを閲覧
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## ファイル
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: ファイル名をクリップボードにコピー
-  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: View 'discard changes' options
   <kbd>&lt;space&gt;</kbd>: ステージ/アンステージ
   <kbd>&lt;c-b&gt;</kbd>: ファイルをフィルタ (ステージ/アンステージ)
@@ -189,13 +188,13 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>`</kbd>: ファイルツリーの表示を切り替え
   <kbd>M</kbd>: Git mergetoolを開く
   <kbd>f</kbd>: Fetch
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## ブランチ
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: ブランチ名をクリップボードにコピー
-  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Show git-flow options
   <kbd>&lt;space&gt;</kbd>: チェックアウト
   <kbd>n</kbd>: 新しいブランチを作成
@@ -213,6 +212,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>R</kbd>: ブランチ名を変更
   <kbd>u</kbd>: Set/Unset upstream
   <kbd>&lt;enter&gt;</kbd>: コミットを閲覧
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## メインパネル (Merging)
@@ -241,7 +241,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## メインパネル (Patch Building)
 
 <pre>
-  <kbd>/</kbd>: 検索を開始
   <kbd>&lt;left&gt;</kbd>: 前のhunkを選択
   <kbd>&lt;right&gt;</kbd>: 次のhunkを選択
   <kbd>v</kbd>: 範囲選択を切り替え
@@ -252,12 +251,12 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>e</kbd>: ファイルを編集
   <kbd>&lt;space&gt;</kbd>: 行をパッチに追加/削除
   <kbd>&lt;esc&gt;</kbd>: Exit custom patch builder
+  <kbd>/</kbd>: 検索を開始
 </pre>
 
 ## メインパネル (Staging)
 
 <pre>
-  <kbd>/</kbd>: 検索を開始
   <kbd>&lt;left&gt;</kbd>: 前のhunkを選択
   <kbd>&lt;right&gt;</kbd>: 次のhunkを選択
   <kbd>v</kbd>: 範囲選択を切り替え
@@ -274,47 +273,46 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>c</kbd>: 変更をコミット
   <kbd>w</kbd>: pre-commitフックを実行せずに変更をコミット
   <kbd>C</kbd>: gitエディタを使用して変更をコミット
+  <kbd>/</kbd>: 検索を開始
 </pre>
 
 ## メニュー
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: 実行
   <kbd>&lt;esc&gt;</kbd>: 閉じる
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## リモート
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: リモートをfetch
   <kbd>n</kbd>: リモートを新規追加
   <kbd>d</kbd>: リモートを削除
   <kbd>e</kbd>: リモートを編集
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## リモートブランチ
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: ブランチ名をクリップボードにコピー
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: チェックアウト
   <kbd>n</kbd>: 新しいブランチを作成
   <kbd>M</kbd>: 現在のブランチにマージ
   <kbd>r</kbd>: Rebase checked-out branch onto this branch
   <kbd>d</kbd>: ブランチを削除
   <kbd>u</kbd>: Set as upstream of checked-out branch
-  <kbd>&lt;esc&gt;</kbd>: リモート一覧に戻る
   <kbd>g</kbd>: View reset options
   <kbd>&lt;enter&gt;</kbd>: コミットを閲覧
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 参照ログ
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: コミットのSHAをクリップボードにコピー
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: コミットをチェックアウト
   <kbd>y</kbd>: コミットの情報をコピー
   <kbd>o</kbd>: ブラウザでコミットを開く
@@ -324,6 +322,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>C</kbd>: コミットを範囲コピー (cherry-pick)
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
   <kbd>&lt;enter&gt;</kbd>: コミットを閲覧
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 確認パネル

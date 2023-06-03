@@ -48,7 +48,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer de bestandsnaam naar het klembord
-  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: Bekijk 'veranderingen ongedaan maken' opties
   <kbd>&lt;space&gt;</kbd>: Toggle staged
   <kbd>&lt;c-b&gt;</kbd>: Filter files (staged/unstaged)
@@ -69,6 +68,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>`</kbd>: Toggle bestandsboom weergave
   <kbd>M</kbd>: Open external merge tool (git mergetool)
   <kbd>f</kbd>: Fetch
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Bevestigingspaneel
@@ -82,7 +82,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer branch name naar klembord
-  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Laat git-flow opties zien
   <kbd>&lt;space&gt;</kbd>: Uitchecken
   <kbd>n</kbd>: Nieuwe branch
@@ -100,6 +99,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>R</kbd>: Hernoem branch
   <kbd>u</kbd>: Set/Unset upstream
   <kbd>&lt;enter&gt;</kbd>: Bekijk commits
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Commit bericht
@@ -113,7 +113,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer de vastgelegde bestandsnaam naar het klembord
-  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Bestand uitchecken
   <kbd>d</kbd>: Uitsluit deze commit zijn veranderingen aan dit bestand
   <kbd>o</kbd>: Open bestand
@@ -122,6 +121,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>a</kbd>: Toggle all files included in patch
   <kbd>&lt;enter&gt;</kbd>: Enter bestand om geselecteerde regels toe te voegen aan de patch
   <kbd>`</kbd>: Toggle bestandsboom weergave
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Commits
@@ -129,7 +129,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer commit SHA naar klembord
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (gekopieerde) commits selectie
-  <kbd>/</kbd>: Start met zoeken
   <kbd>b</kbd>: View bisect options
   <kbd>s</kbd>: Squash beneden
   <kbd>f</kbd>: Fixup commit
@@ -156,14 +155,15 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>c</kbd>: Kopieer commit (cherry-pick)
   <kbd>C</kbd>: Kopieer commit reeks (cherry-pick)
   <kbd>&lt;enter&gt;</kbd>: Bekijk gecommite bestanden
+  <kbd>/</kbd>: Start met zoeken
 </pre>
 
 ## Menu
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Uitvoeren
   <kbd>&lt;esc&gt;</kbd>: Sluiten
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Mergen
@@ -192,7 +192,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## Patch bouwen
 
 <pre>
-  <kbd>/</kbd>: Start met zoeken
   <kbd>&lt;left&gt;</kbd>: Selecteer de vorige hunk
   <kbd>&lt;right&gt;</kbd>: Selecteer de volgende hunk
   <kbd>v</kbd>: Toggle drag selecteer
@@ -203,13 +202,13 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>e</kbd>: Verander bestand
   <kbd>&lt;space&gt;</kbd>: Voeg toe/verwijder lijn(en) in patch
   <kbd>&lt;esc&gt;</kbd>: Sluit lijn-bij-lijn modus
+  <kbd>/</kbd>: Start met zoeken
 </pre>
 
 ## Reflog
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer commit SHA naar klembord
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -219,38 +218,37 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>C</kbd>: Kopieer commit reeks (cherry-pick)
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (gekopieerde) commits selectie
   <kbd>&lt;enter&gt;</kbd>: Bekijk commits
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Remote branches
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer branch name naar klembord
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Uitchecken
   <kbd>n</kbd>: Nieuwe branch
   <kbd>M</kbd>: Merge in met huidige checked out branch
   <kbd>r</kbd>: Rebase branch
   <kbd>d</kbd>: Verwijder branch
   <kbd>u</kbd>: Stel in als upstream van uitgecheckte branch
-  <kbd>&lt;esc&gt;</kbd>: Ga terug naar remotes lijst
   <kbd>g</kbd>: Bekijk reset opties
   <kbd>&lt;enter&gt;</kbd>: Bekijk commits
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Remotes
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: Fetch remote
   <kbd>n</kbd>: Voeg een nieuwe remote toe
   <kbd>d</kbd>: Verwijder remote
   <kbd>e</kbd>: Wijzig remote
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Staging
 
 <pre>
-  <kbd>/</kbd>: Start met zoeken
   <kbd>&lt;left&gt;</kbd>: Selecteer de vorige hunk
   <kbd>&lt;right&gt;</kbd>: Selecteer de volgende hunk
   <kbd>v</kbd>: Toggle drag selecteer
@@ -267,18 +265,19 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>c</kbd>: Commit veranderingen
   <kbd>w</kbd>: Commit veranderingen zonder pre-commit hook
   <kbd>C</kbd>: Commit veranderingen met de git editor
+  <kbd>/</kbd>: Start met zoeken
 </pre>
 
 ## Stash
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Toepassen
   <kbd>g</kbd>: Pop
   <kbd>d</kbd>: Laten vallen
   <kbd>n</kbd>: Nieuwe branch
   <kbd>r</kbd>: Rename stash
   <kbd>&lt;enter&gt;</kbd>: Bekijk gecommite bestanden
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Status
@@ -295,7 +294,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer commit SHA naar klembord
-  <kbd>/</kbd>: Start met zoeken
   <kbd>&lt;space&gt;</kbd>: Checkout commit
   <kbd>y</kbd>: Copy commit attribute
   <kbd>o</kbd>: Open commit in browser
@@ -305,13 +303,13 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>C</kbd>: Kopieer commit reeks (cherry-pick)
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (gekopieerde) commits selectie
   <kbd>&lt;enter&gt;</kbd>: Bekijk gecommite bestanden
+  <kbd>/</kbd>: Start met zoeken
 </pre>
 
 ## Submodules
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: Kopieer submodule naam naar klembord
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: Enter submodule
   <kbd>d</kbd>: Remove submodule
   <kbd>u</kbd>: Update submodule
@@ -319,16 +317,17 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>e</kbd>: Update submodule URL
   <kbd>i</kbd>: Initialiseer submodule
   <kbd>b</kbd>: Bekijk bulk submodule opties
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Tags
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: Uitchecken
   <kbd>d</kbd>: Verwijder tag
   <kbd>P</kbd>: Push tag
   <kbd>n</kbd>: Creëer tag
   <kbd>g</kbd>: Bekijk reset opties
   <kbd>&lt;enter&gt;</kbd>: Bekijk commits
+  <kbd>/</kbd>: Filter the current view
 </pre>

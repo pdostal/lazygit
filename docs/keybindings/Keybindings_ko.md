@@ -48,7 +48,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 커밋 SHA를 클립보드에 복사
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 커밋을 체크아웃
   <kbd>y</kbd>: 커밋 attribute 복사
   <kbd>o</kbd>: 브라우저에서 커밋 열기
@@ -58,25 +57,25 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>C</kbd>: 커밋을 범위로 복사 (cherry-pick)
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
   <kbd>&lt;enter&gt;</kbd>: 커밋 보기
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Stash
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 적용
   <kbd>g</kbd>: Pop
   <kbd>d</kbd>: Drop
   <kbd>n</kbd>: 새 브랜치 생성
   <kbd>r</kbd>: Rename stash
   <kbd>&lt;enter&gt;</kbd>: View selected item's files
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## Sub-commits
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 커밋 SHA를 클립보드에 복사
-  <kbd>/</kbd>: 검색 시작
   <kbd>&lt;space&gt;</kbd>: 커밋을 체크아웃
   <kbd>y</kbd>: 커밋 attribute 복사
   <kbd>o</kbd>: 브라우저에서 커밋 열기
@@ -86,14 +85,15 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>C</kbd>: 커밋을 범위로 복사 (cherry-pick)
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
   <kbd>&lt;enter&gt;</kbd>: View selected item's files
+  <kbd>/</kbd>: 검색 시작
 </pre>
 
 ## 메뉴
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: 실행
   <kbd>&lt;esc&gt;</kbd>: 닫기
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 메인 패널 (Merging)
@@ -122,7 +122,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 메인 패널 (Patch Building)
 
 <pre>
-  <kbd>/</kbd>: 검색 시작
   <kbd>&lt;left&gt;</kbd>: 이전 hunk를 선택
   <kbd>&lt;right&gt;</kbd>: 다음 hunk를 선택
   <kbd>v</kbd>: 드래그 선택 전환
@@ -133,12 +132,12 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>e</kbd>: 파일 편집
   <kbd>&lt;space&gt;</kbd>: Line(s)을 패치에 추가/삭제
   <kbd>&lt;esc&gt;</kbd>: Exit custom patch builder
+  <kbd>/</kbd>: 검색 시작
 </pre>
 
 ## 메인 패널 (Staging)
 
 <pre>
-  <kbd>/</kbd>: 검색 시작
   <kbd>&lt;left&gt;</kbd>: 이전 hunk를 선택
   <kbd>&lt;right&gt;</kbd>: 다음 hunk를 선택
   <kbd>v</kbd>: 드래그 선택 전환
@@ -155,13 +154,13 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>c</kbd>: 커밋 변경내용
   <kbd>w</kbd>: Commit changes without pre-commit hook
   <kbd>C</kbd>: Git 편집기를 사용하여 변경 내용을 커밋합니다.
+  <kbd>/</kbd>: 검색 시작
 </pre>
 
 ## 브랜치
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 브랜치명을 클립보드에 복사
-  <kbd>/</kbd>: Filter the current view
   <kbd>i</kbd>: Git-flow 옵션 보기
   <kbd>&lt;space&gt;</kbd>: 체크아웃
   <kbd>n</kbd>: 새 브랜치 생성
@@ -179,6 +178,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>R</kbd>: 브랜치 이름 변경
   <kbd>u</kbd>: Set/Unset upstream
   <kbd>&lt;enter&gt;</kbd>: 커밋 보기
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 상태
@@ -195,7 +195,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 서브모듈 이름을 클립보드에 복사
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;enter&gt;</kbd>: 서브모듈 열기
   <kbd>d</kbd>: 서브모듈 삭제
   <kbd>u</kbd>: 서브모듈 업데이트
@@ -203,32 +202,32 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>e</kbd>: 서브모듈의 URL을 수정
   <kbd>i</kbd>: 서브모듈 초기화
   <kbd>b</kbd>: View bulk submodule options
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 원격
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>f</kbd>: 원격을 업데이트
   <kbd>n</kbd>: 새로운 Remote 추가
   <kbd>d</kbd>: Remote를 삭제
   <kbd>e</kbd>: Remote를 수정
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 원격 브랜치
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 브랜치명을 클립보드에 복사
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 체크아웃
   <kbd>n</kbd>: 새 브랜치 생성
   <kbd>M</kbd>: 현재 브랜치에 병합
   <kbd>r</kbd>: 체크아웃된 브랜치를 이 브랜치에 리베이스
   <kbd>d</kbd>: 브랜치 삭제
   <kbd>u</kbd>: Set as upstream of checked-out branch
-  <kbd>&lt;esc&gt;</kbd>: 원격목록으로 돌아가기
   <kbd>g</kbd>: View reset options
   <kbd>&lt;enter&gt;</kbd>: 커밋 보기
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 커밋
@@ -236,7 +235,6 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 커밋 SHA를 클립보드에 복사
   <kbd>&lt;c-r&gt;</kbd>: Reset cherry-picked (copied) commits selection
-  <kbd>/</kbd>: 검색 시작
   <kbd>b</kbd>: Bisect 옵션 보기
   <kbd>s</kbd>: Squash down
   <kbd>f</kbd>: Fixup commit
@@ -263,13 +261,13 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>c</kbd>: 커밋을 복사 (cherry-pick)
   <kbd>C</kbd>: 커밋을 범위로 복사 (cherry-pick)
   <kbd>&lt;enter&gt;</kbd>: View selected item's files
+  <kbd>/</kbd>: 검색 시작
 </pre>
 
 ## 커밋 파일
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 커밋한 파일명을 클립보드에 복사
-  <kbd>/</kbd>: Filter the current view
   <kbd>c</kbd>: Checkout file
   <kbd>d</kbd>: Discard this commit's changes to this file
   <kbd>o</kbd>: 파일 닫기
@@ -278,6 +276,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>a</kbd>: Toggle all files included in patch
   <kbd>&lt;enter&gt;</kbd>: Enter file to add selected lines to the patch (or toggle directory collapsed)
   <kbd>`</kbd>: 파일 트리뷰로 전환
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 커밋메시지
@@ -290,20 +289,19 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
 ## 태그
 
 <pre>
-  <kbd>/</kbd>: Filter the current view
   <kbd>&lt;space&gt;</kbd>: 체크아웃
   <kbd>d</kbd>: 태그 삭제
   <kbd>P</kbd>: 태그를 push
   <kbd>n</kbd>: 태그를 생성
   <kbd>g</kbd>: View reset options
   <kbd>&lt;enter&gt;</kbd>: 커밋 보기
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 파일
 
 <pre>
   <kbd>&lt;c-o&gt;</kbd>: 파일명을 클립보드에 복사
-  <kbd>/</kbd>: Filter the current view
   <kbd>d</kbd>: View 'discard changes' options
   <kbd>&lt;space&gt;</kbd>: Staged 전환
   <kbd>&lt;c-b&gt;</kbd>: 파일을 필터하기 (Staged/unstaged)
@@ -324,6 +322,7 @@ _Legend: `<c-b>` means ctrl+b, `<a-b>` means alt+b, `B` means shift+b_
   <kbd>`</kbd>: 파일 트리뷰로 전환
   <kbd>M</kbd>: Git mergetool를 열기
   <kbd>f</kbd>: Fetch
+  <kbd>/</kbd>: Filter the current view
 </pre>
 
 ## 확인 패널
